@@ -49,3 +49,6 @@ Explains itself. Can be done, but would I want to?
 
 6. Randomize money chest contents
 Shouldn't be difficult.
+
+Known Bugs/Issues
+1. I have noticed that getting duplicate items in a shop is a possibility. I should be able to get this fixed by the next version.
