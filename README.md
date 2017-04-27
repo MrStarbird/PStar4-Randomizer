@@ -20,6 +20,10 @@ It is also possible that other Genesis/Megadrive roms have the same first 304 by
 
 Version History:
 
+4/26/17 - version 0.2.1b
+
+-Fixed bug with Defeat Axe where it would do 999 damage and crash the game against a boss. Should work now.
+
 4/26/17 - version 0.2b
 
 -Fixed bug where shops could have duplicate items (hopefully)
