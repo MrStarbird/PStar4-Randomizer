@@ -20,6 +20,10 @@ It is also possible that other Genesis/Megadrive roms have the same first 304 by
 
 Version History:
 
+5/6/2017 - version 0.3.1b
+
+-Fixed programming bug where Randomizing Techniques would cause the program to crash. I blame the cats.
+
 5/5/2017 - version 0.3b
 
 -Added option to randomize equipment prices for shops
