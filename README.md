@@ -1,4 +1,4 @@
-# PStar4-Randomizer v0.2b
+# PStar4-Randomizer v0.3b
 Randomizer for the Sega Genesis RPG Phantasy Star IV
 
 DISCLAIMER: By using this Randomizer, you assume all risks involved and do not hold me liable for any damages or file corruptions that may happen. USE AT YOUR OWN RISK!!!
@@ -19,6 +19,20 @@ NOTE: Though there is a validation process in the program to validate the rom, i
 It is also possible that other Genesis/Megadrive roms have the same first 304 bytes as Phantasy Star IV. If this happens, please let me know.
 
 Version History:
+
+5/5/2017 - version 0.3b
+
+-Added option to randomize equipment prices for shops
+
+-Added option to make Rykros Ring equippable by Kyra, Raja, Hahn, Gryz, and Demi
+
+-Added option to randomize what techniques characters learn.
+
+-Added option to allow a Laser Barrier to cast Barrier in battle.
+
+-Added option to allow Swift Helmet, Mahlay Shield, and Laser Barrier (if selected) to be multi-target like their techniques.
+
+-Randomize and Shuffle chests will now randomize Meseta chests. Items are still in item chests and meseta is still in meseta chests.
 
 4/26/17 - version 0.2.1b
 
@@ -51,29 +65,47 @@ Here is what the Randomizer currently does:
 1. Change shop inventories
 *User can choose to randomize shop inventories. These are still separated by type: Weapon, Armor, Item. Item prices have not changed.
 
-2. Change Item Chest contents
-*User can choose to randomize the contents of items in chests that originally have items in the game. Chests that contain Meseta will still contain the original amount. Key items are still in their original chests. It is possible to have multiple of the same item from many chests.
+2. Change Chest contents
+*User can choose to randomize the contents of items in chests that originally have items in the game. Chests that contain Meseta will contain a random amount from 100 to 10,000. Key items are still in their original chests. It is possible to have multiple of the same item from many chests.
 
-*User can choose to shuffle the contents of items in chests that were in the original game. Chests that contain Meseta will still contain the original amount for now. Key items are still in their original chests.
+*User can choose to shuffle the contents of items in chests that were in the original game. Chests that contain Meseta will still have Meseta but have their own list to be shuffled from. Key items are still in their original chests.
+
+3. Randomize shop prices
+*User can choose to randomize the price of each piece of equipment. Consumable items are still the same price. This could lead to a bit of inflation in prices, but good items could possible cost less while garbage could possibly cost more.
+
+4. Options to change some pieces of equipment.
+*User can choose to let Demi use guns that only Wren can use.
+
+*User can choose to make the Rykros Ring a wearable head piece for Kyra, Raja, Hahn, Gryz, and Demi.
+
+*User can choose to make the Laser Barrier a useable item that works like Barrier.
+
+*User can choose to make the Swift Helmet, Mahlay Shield, and Laser Barrier (if that option was chosen) affect the entire party when used by an item, making them equal to their technique counterpart.
+
+5. Randomize what Techniques characters learn
+*User can choose to randomize what techniques a character will learn. Characters will still learn techniques at the same level they would in the original game. Characters are not tied to any single element and are also not guaranteed to get all powers of a single type (they may learn Foi but may not learn NaFoi or could learn NaThu instead). Megid IS in the randomization of techniques but can also still be learned by Chaz in the Anger Tower.
+
+~The Logic behind this works like this: Techniques are sorted into three groups: Low-Level, Medium-Level, High-Level. Buffs, Debuffs, and non-prefixed techniques are in the Low-Level, Gi-prefixed techniques and Rever are in Medium-Level, Na-prefixed, Regen, and MEGID are in High-Level. A character when they learn a technique will pull from the Low-Level list until they are 14 and will pull from the Medium-Level until they are 27, then will pull from the High-Level from then on out. Nobody learns any techniques after Level 40. 
 
 Here is what I want to do for future releases:
 
 1. Randomize enemy stats
 There would still be a bit of balancing that would need to be done, but it is possible.
 
-2. Randomize character techniques and stats.
-I know there are some limits to this and skills are almost set on a per character basis, but seeing differet characters with different techniques would be fun.
-
-3. Randomize what characters can equip.
+2. Randomize what characters can equip.
 This shouldn't be a problem with armor, but for weapons it could be a problem.
 
-4. Randomize equipment stats.
+3. Randomize equipment stats.
 Explains itself. Can be done, but would I want to?
 
-5. Randomize money chest contents
-Shouldn't be difficult.
 
 Known Bugs/Issues:
+
+If selecting the option to make the buff items multi-target, there is a possibility that these items will still only animate over one person. If you come across this, let me know.
+
+None currently
+
+Thanks:
 
 Thanks goes to Lory_90 for his ps4 disassembly information. Without it, the randomizer would not be possible.
 
