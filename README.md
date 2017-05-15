@@ -20,6 +20,18 @@ It is also possible that other Genesis/Megadrive roms have the same first 304 by
 
 Version History:
 
+5/15/2017 - version 0.4
+
+-Added Skill Randomization
+
+-Moved 5 Techniques to the Mid-Level pool to balance out the support techniques.
+
+-Removed use of Pulse Laser and Pulse Vulcan onto Demi
+
+-Fixed bug where a chest in Plate System always gave the Laser Knife (its original item)
+
+-Added experimental text skipping.
+
 5/6/2017 - version 0.3.1b
 
 -Fixed programming bug where Randomizing Techniques would cause the program to crash. I blame the cats.
@@ -86,8 +98,8 @@ Here is what the Randomizer currently does:
 
 *User can choose to make the Swift Helmet, Mahlay Shield, and Laser Barrier (if that option was chosen) affect the entire party when used by an item, making them equal to their technique counterpart.
 
-5. Randomize what Techniques characters learn
-*User can choose to randomize what techniques a character will learn. Characters will still learn techniques at the same level they would in the original game. Characters are not tied to any single element and are also not guaranteed to get all powers of a single type (they may learn Foi but may not learn NaFoi or could learn NaThu instead). Megid IS in the randomization of techniques but can also still be learned by Chaz in the Anger Tower.
+5. Randomize what Techniques and Skills characters learn
+*User can choose to randomize what techniques and skills a character will learn. Characters will still learn techniques and skills at the same level they would in the original game. Characters are not tied to any single element and are also not guaranteed to get all powers of a single type (they may learn Foi but may not learn NaFoi or could learn NaThu instead). Megid IS in the randomization of techniques but can also still be learned by Chaz in the Anger Tower. Phonon, Posibolt, Burstroc, and HiJammer are NOT in the randomization pools and are still found in their respective chests. Recover is still only learnable by Wren and Demi.
 
 ~The Logic behind this works like this: Techniques are sorted into three groups: Low-Level, Medium-Level, High-Level. Buffs, Debuffs, and non-prefixed techniques are in the Low-Level, Gi-prefixed techniques and Rever are in Medium-Level, Na-prefixed, Regen, and MEGID are in High-Level. A character when they learn a technique will pull from the Low-Level list until they are 14 and will pull from the Medium-Level until they are 27, then will pull from the High-Level from then on out. Nobody learns any techniques after Level 40. 
 
@@ -105,9 +117,7 @@ Explains itself. Can be done, but would I want to?
 
 Known Bugs/Issues:
 
-If selecting the option to make the buff items multi-target, there is a possibility that these items will still only animate over one person. If you come across this, let me know.
-
-None currently
+If selecting the option to make the buff items multi-target, these items will still only animate over one person. This is normal for now and everybody SHOULD still get the buff.
 
 Thanks:
 
