@@ -103,6 +103,11 @@ Here is what the Randomizer currently does:
 
 ~The Logic behind this works like this: Techniques are sorted into three groups: Low-Level, Medium-Level, High-Level. Buffs, Debuffs, and non-prefixed techniques are in the Low-Level, Gi-prefixed techniques and Rever are in Medium-Level, Na-prefixed, Regen, and MEGID are in High-Level. A character when they learn a technique will pull from the Low-Level list until they are 14 and will pull from the Medium-Level until they are 27, then will pull from the High-Level from then on out. Nobody learns any techniques after Level 40. 
 
+6. Text Skpping (Experimental, BUGGED)
+*User can choose to skip cutscene text in the game. Shops and NPC texts still play out.
+
+NOTE: This option so far works up to Gy-Laguiah at the Ladea Tower, where it will softlock. We are still working on this so until now, I wouldn't recommend using it unless you want to sample what can be.
+
 Here is what I want to do for future releases:
 
 1. Randomize enemy stats
@@ -118,6 +123,8 @@ Explains itself. Can be done, but would I want to?
 Known Bugs/Issues:
 
 If selecting the option to make the buff items multi-target, these items will still only animate over one person. This is normal for now and everybody SHOULD still get the buff.
+
+The Text Skipping option works until you get to the Psycho Wand at Ladea Tower before the boss fight, causing the game to Soft-lock. Up to that point, there are also some cutscene panel glitches that doesn't interfere with the gameplay and for some reason, Juza's and Zio's cutscenes still show text. We are working on this and will hopefully have this fixed.
 
 Thanks:
 
