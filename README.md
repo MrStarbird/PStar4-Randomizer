@@ -1,4 +1,4 @@
-# PStar4-Randomizer v0.3b
+# PStar4-Randomizer v0.4.1b
 Randomizer for the Sega Genesis RPG Phantasy Star IV
 
 DISCLAIMER: By using this Randomizer, you assume all risks involved and do not hold me liable for any damages or file corruptions that may happen. USE AT YOUR OWN RISK!!!
@@ -19,6 +19,10 @@ NOTE: Though there is a validation process in the program to validate the rom, i
 It is also possible that other Genesis/Megadrive roms have the same first 304 bytes as Phantasy Star IV. If this happens, please let me know.
 
 Version History:
+
+5/19/2017 - version 0.4.1
+
+-Fixed a bug in Text Skipping (see notes below)
 
 5/15/2017 - version 0.4
 
@@ -106,7 +110,7 @@ Here is what the Randomizer currently does:
 6. Text Skpping (Experimental, BUGGED)
 *User can choose to skip cutscene text in the game. Shops and NPC texts still play out.
 
-NOTE: This option so far works up to Gy-Laguiah at the Ladea Tower, where it will softlock. We are still working on this so until now, I wouldn't recommend using it unless you want to sample what can be.
+NOTE: This option so far works up to obtaining the Psycho Wand at Ladea Tower, where it will softlock at Alys' Death Scene. We are still working on this so until now, I wouldn't recommend using it unless you want to sample what can be.
 
 Here is what I want to do for future releases:
 
@@ -124,7 +128,7 @@ Known Bugs/Issues:
 
 If selecting the option to make the buff items multi-target, these items will still only animate over one person. This is normal for now and everybody SHOULD still get the buff.
 
-The Text Skipping option works until you get to the Psycho Wand at Ladea Tower before the boss fight, causing the game to Soft-lock. Up to that point, there are also some cutscene panel glitches that doesn't interfere with the gameplay and for some reason, Juza's and Zio's cutscenes still show text. We are working on this and will hopefully have this fixed.
+The Text Skipping option works until you get to the Psycho Wand at Ladea Tower after the boss fight, causing the game to Soft-lock during Alys' death scene. Up to that point, there are also some cutscene panel glitches that doesn't interfere with the gameplay. We are working on this and will hopefully have this fixed.
 
 Thanks:
 
