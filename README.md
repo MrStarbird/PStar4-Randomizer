@@ -1,4 +1,4 @@
-# PStar4-Randomizer v0.4.1b
+# PStar4-Randomizer v0.4.2b
 Randomizer for the Sega Genesis RPG Phantasy Star IV
 
 DISCLAIMER: By using this Randomizer, you assume all risks involved and do not hold me liable for any damages or file corruptions that may happen. USE AT YOUR OWN RISK!!!
@@ -19,6 +19,10 @@ NOTE: Though there is a validation process in the program to validate the rom, i
 It is also possible that other Genesis/Megadrive roms have the same first 304 bytes as Phantasy Star IV. If this happens, please let me know.
 
 Version History:
+
+6/12/2017 - version 0.4.2
+
+-Fixed Text Skipping option. Should now work without issue.
 
 5/19/2017 - version 0.4.1
 
@@ -107,10 +111,8 @@ Here is what the Randomizer currently does:
 
 ~The Logic behind this works like this: Techniques are sorted into three groups: Low-Level, Medium-Level, High-Level. Buffs, Debuffs, and non-prefixed techniques are in the Low-Level, Gi-prefixed techniques and Rever are in Medium-Level, Na-prefixed, Regen, and MEGID are in High-Level. A character when they learn a technique will pull from the Low-Level list until they are 14 and will pull from the Medium-Level until they are 27, then will pull from the High-Level from then on out. Nobody learns any techniques after Level 40. 
 
-6. Text Skpping (Experimental, BUGGED)
-*User can choose to skip cutscene text in the game. Shops and NPC texts still play out.
-
-NOTE: This option so far works up to obtaining the Psycho Wand at Ladea Tower, where it will softlock at Alys' Death Scene. We are still working on this so until now, I wouldn't recommend using it unless you want to sample what can be.
+6. Text Skpping 
+*User can choose to skip cutscene text in the game. What this does is automatically advance the text while talking to an NPC or during a cutscene. When given a Yes/No option, the textbox may at times be blank but you can still make your selection. Because of this, this is to remain an OPTIONAL feature of the randomizer. It was decided that some people still like to read text in a randomizer setting or may not be fully familiar with the game.
 
 Here is what I want to do for future releases:
 
@@ -123,12 +125,15 @@ This shouldn't be a problem with armor, but for weapons it could be a problem.
 3. Randomize equipment stats.
 Explains itself. Can be done, but would I want to?
 
+4. Randomize character stats.
+Again, can be done, but would I want to?
+
+5. Difficulty options
+I may be tinkering with an idea to create a slider that allows the user to choose how much more XP and Meseta an enemy drops. I could potentially make it so that it can be anywhere between 50% and 200% or higher. The same can be done with enemy stats to create a various amount of options.
 
 Known Bugs/Issues:
 
 If selecting the option to make the buff items multi-target, these items will still only animate over one person. This is normal for now and everybody SHOULD still get the buff.
-
-The Text Skipping option works until you get to the Psycho Wand at Ladea Tower after the boss fight, causing the game to Soft-lock during Alys' death scene. Up to that point, there are also some cutscene panel glitches that doesn't interfere with the gameplay. We are working on this and will hopefully have this fixed.
 
 Thanks:
 
