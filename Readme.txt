@@ -1,4 +1,4 @@
-Phantasy Star IV Randomizer v1.0
+Phantasy Star IV Randomizer v1.1
 by: MrStarbird
 contributions by: Lory_90
 Date: Aug 20, 2017
@@ -11,6 +11,13 @@ Contents:
 5. Thanks
 
 1. Version History
+
+v1.1.0 - Oct 25, 2017
+-Fixed a bug with the message at the end showing the entire save path instead of just seed and flag numbers.
+-Added Open Armor option, allowing all characters to equip any piece of armor.
+-Added character stat randomization.
+-Removed radio button configuration for shop randomization. Now is just a checkbox instead.
+-Minor UI changes.
 
 v1.0.0 - Aug 20, 2017
 -Flags now set automatically when selecting and deselecting options.
@@ -72,47 +79,30 @@ v0.1 - April 24, 2017
 
 2. About the Phantasy Star IV Randomizer
 
-The PS4 Randomizer was designed to change the around so that it would feel like a fresh experience every time you played this Genesis classic. It has gone through many revisions but is
-now at a stable enough point with all the options I've wanted on it. 
+The PS4 Randomizer was designed to change the around so that it would feel like a fresh experience every time you played this Genesis classic. It has gone through many revisions but is now at a stable enough point with all the options I've wanted on it. 
 
 3. Features and Options
 By mousing over each option, you can see a brief tool-tip about what the option does and any issues or notes with the option.
 
 Text Skipping:
-By choosing "Text Skpping Enabled", text will automatically advance until you have control, either by choosing a Yes/No option or until you can move again. NOTE: There is an issue
-that is non-game breaking but annoying. In the Air Castle, the room with the Eclipse Torch chest and Lashiec will automatically trigger its event upon entering the room instead of
-opening the chest. Unfortunately, until I get in touch with Lory_90 again, I cannot fix this as Text Skipping was mostly his work. The way around it is to just make sure you do your
-preparations before entering the room.
+By choosing "Text Skpping Enabled", text will automatically advance until you have control, either by choosing a Yes/No option or until you can move again. NOTE: There is an issue that is non-game breaking but annoying. In the Air Castle, the room with the Eclipse Torch chest and Lashiec will automatically trigger its event upon entering the room instead of opening the chest. Unfortunately, until I get in touch with Lory_90 again, I cannot fix this as Text Skipping was mostly his work. The way around it is to just make sure you do your preparations before entering the room.
 
 Chest Options:
-Chest contents can either remain as "Default" or can be either "Randomized" or "Shuffled. By choosing "Default Chest Contents", the chests will have the same items that they would
-in the original version of the game. By choosing "Randomize Chests", each Item Chest will have a random, non-key item inserted into them and Meseta chests will have a random value
-inserted into it between 100 and 10000 Meseta. By choosing "Shuffle Chests", the Item Chests will have a random item from a pool of the original chest contents and Meseta chests will
-have a random value from a pool of all Meseta chests in the game. Key items (Alshline, Psycho Wand, Eclipse Torch, Aero Prism, and the 5 Rings) as well as Wren and Demi's skills 
-are unchanged and remain in their same spot. Elsydeon and Silver Tusks cannot be placed into a chest and must be gotten by normal means.
+Chest contents can either remain as "Default" or can be either "Randomized" or "Shuffled. By choosing "Default Chest Contents", the chests will have the same items that they would in the original version of the game. By choosing "Randomize Chests", each Item Chest will have a random, non-key item inserted into them and Meseta chests will have a random value inserted into it between 100 and 10000 Meseta. By choosing "Shuffle Chests", the Item Chests will have a random item from a pool of the original chest contents and Meseta chests will have a random value from a pool of all Meseta chests in the game. Key items (Alshline, Psycho Wand, Eclipse Torch, Aero Prism, and the 5 Rings) as well as Wren and Demi's skills are unchanged and remain in their same spot. Elsydeon and Silver Tusks cannot be placed into a chest and must be gotten by normal means.
 
 Shop Options:
-Shops can either remain as "Default" or "Randomized". By choosing "Default Shops", all shops in game will remain the same. By choosing "Randomize Shops", all shops will have random
-items for sale. Weapon shops still only sell Weapons, Armor shops still only sell Armor, and Item shops still only sell items.
+Selecting the "Randomize Shop Inventories" option will create all shops to have random items for sale. All shops will still sell only items of their categories.
 
 Technique/Skill Randomization:
-By choosing "Randomize Techniques/Skills", every character will learn a random Technique and Skill from a pool. The levels of which they learn an ability and what they learn at that
-level remain unchanged (for instance, in the original, Chaz learns Tsu at Level 4 and Crosscut at Level 6). Techniques will still be learned at a level the character would learn a
-technique and same with skills (Chaz wouldn't learn Crosscut at Level 4 and Tsu at Level 6 for instance).
+By choosing "Randomize Techniques/Skills", every character will learn a random Technique and Skill from a pool. The levels of which they learn an ability and what they learn at that level remain unchanged (for instance, in the original, Chaz learns Tsu at Level 4 and Crosscut at Level 6). Techniques will still be learned at a level the character would learn a technique and same with skills (Chaz wouldn't learn Crosscut at Level 4 and Tsu at Level 6 for instance).
 
-Techniques are sorted into three different categories before being distributed: Low-Level, Mid-Level, and High-Level. This is to prevent getting techniques like NaSar at Level 1 without
-the TP to use it. Characters will not learn the same technique twice. Megid is shuffled into the pool, though Chaz can still learn Megid on his own from Anger Tower at the end of the
-game. Also, Wren, Demi, and Seth still do not learn Techniques.
+Techniques are sorted into three different categories before being distributed: Low-Level, Mid-Level, and High-Level. This is to prevent getting techniques like NaSar at Level 1 without the TP to use it. Characters will not learn the same technique twice. Megid is shuffled into the pool, though Chaz can still learn Megid on his own from Anger Tower at the end of the game. Also, Wren, Demi, and Seth still do not learn Techniques.
 
 -Low-Level Techniques (Levels 1-13): Foi, Wat, Tsu, Zan, Gra, Gelun, Rimit, Res, Sar, Saner, Deban, Anti, Arows, Ryuka, Hinas
 -Mid-Level Techniques (Levels 14-28): GiFoi, GiWat, GiThu, GiZan, GiGra, Brose, Vol, Doran, Seals, GiRes, GiSar, Shift, Rimpa, Rever
 -High-Level Techniques (Levels 29+): NaFoi, NaWat, NaThu, NaZan, NaGra, Megid, SaVol, NaRes, NaSar, Regen
 
-Skills are randomized a bit differently. Each character only has a certain set of skills they can use without the game crashing. Those that are safe to use are randomized for that
-character. Wren and Demi retain Recover as their first skill, have their other initial skills randomized, and must still learn Phonon, Hijammer, Burstroc, and Positron through the same
-events. Spark and Barrier are all Demi's version of the skill, which is coded to be weaker, though Wren will still keep his version. Hahn and Rika will still have their own version of 
-Eliminate in their own pools (since they are the only ones that can use it) as will Rune and Kyra get their own versions of Flaeli, Hewn, and Tandle into their own pools. There are
-a few skills that are included in everybody's pool. A character will not learn the same skill twice.
+Skills are randomized a bit differently. Each character only has a certain set of skills they can use without the game crashing. Those that are safe to use are randomized for that character. Wren and Demi retain Recover as their first skill, have their other initial skills randomized, and must still learn Phonon, Hijammer, Burstroc, and Positron through the same events. Spark and Barrier are all Demi's version of the skill, which is coded to be weaker, though Wren will still keep his version. Hahn and Rika will still have their own version of  Eliminate in their own pools (since they are the only ones that can use it) as will Rune and Kyra get their own versions of Flaeli, Hewn, and Tandle into their own pools. There are a few skills that are included in everybody's pool. A character will not learn the same skill twice.
 
 -Everyone: Flare, Corrosion, Explode, Spark, Deathspell, Shadow, Stasisbeam, Mindblast, Barrier, Vision
 -Chaz: Crosscut, Rayblade, Astral, Airslash, Earth
@@ -126,49 +116,42 @@ a few skills that are included in everybody's pool. A character will not learn t
 -Raja: St.Fire, Holyword, Moonshade, Blessing, Miracle, Ataraxia
 -Kyra: Flaeli, Vortex, Hewn, Tandle, St.Fire, Telele, Moonshade, Bindwa, Wary Cry, Blessing, Warla, Medice, Miracle, Ataraxia
 
-Due to the nature of randomization, it is possible to get multiple characters with the same technique or skill and have others completely absent from the
-game. 
+Due to the nature of randomization, it is possible to get multiple characters with the same technique or skill and have others completely absent from the game. 
+
+Randomizing Character Statistics:
+Normally, the game has fixed stats based on their level. By selecting "Randomize Character Stats", each characters HP, TP, Strength, Mental, Agility, and Dexterity are randomized during the randomization process. HP/TP cannot exceed 999, all other stats cannot exceed 99.
+
+HP gains range from 2-12 per level.
+TP gains range from 2-10 per level, except for Demi, Wren, and Seth, who will still have no gains.
+All other stat gains range from 0-2, except for Demi and Wren who will not gain any Mental. The process for randomizing these stats are a little different, as it attempts NOT to give you a 0 stat gain. If a 0 is rolled during the randomization process, it will attempt one more time to get a number. If it rolls a 0 for a second time, that will be your stat gain for that level.
 
 Humanizing Androids:
-By selecting "Humanize Androids", both Wren and Demi will be able to be the targets of items and techniques that would normally not be able to target them.
-This only works in battle as using them outside of battle will still fail to work, which is why I kept the inclusion of Recover for both Wren and Demi.
+By selecting "Humanize Androids", both Wren and Demi will be able to be the targets of items and techniques that would normally not be able to target them. This only works in battle as using them outside of battle will still fail to work, which is why I kept the inclusion of Recover for both Wren and Demi.
 
 The following will now affect Wren and Demi in battle: Monomate, Dimate, Trimate, Res, GiRes, NaRes, Sar, GiSar, NaSar, Rever, Regen, Guard Rod, Medic Power, Shift
 
 Demi using Wren's Weapons:
-By selecting "Demi can use Wren's Weapons", Demi will now be able to equip the Plasma Laser, Napalm Shot, Plasma Launcher, and Photon Eraser. She cannot
-use Pulse Laser and Pulse Vulcan due to a non-breaking graphical glitch.
+By selecting "Demi can use Wren's Weapons", Demi will now be able to equip the Plasma Laser, Napalm Shot, Plasma Launcher, and Photon Eraser. She cannot use Pulse Laser and Pulse Vulcan due to a non-breaking graphical glitch.
 
 Gryz using Daggers:
-By selecting "Gryz can use Daggers", Gryz will be able to equip every dagger and knife except for the Mahlay Dagger. There was an unused animation in the
-game for Gryz to use daggers, so there are no issues allowing him to use them.
+By selecting "Gryz can use Daggers", Gryz will be able to equip every dagger and knife except for the Mahlay Dagger. There was an unused animation in the game for Gryz to use daggers, so there are no issues allowing him to use them.
 
 Fixing Vision:
-In the US version of the game, Vision was nerfed compared to how it worked in Japan. A flat +8 to Dexterity is nice early on but got phased out a lot
-later in the game. Selecting "Fix Vision Buff" will allow Vision's power to scale off the caster's Mental stat, making it much more handy to use.
+In the US version of the game, Vision was nerfed compared to how it worked in Japan. A flat +8 to Dexterity is nice early on but got phased out a lot later in the game. Selecting "Fix Vision Buff" will allow Vision's power to scale off the caster's Mental stat, making it much more handy to use.
 
 Fixing Medic Power:
-Medic Power is commonly overlooked late in game. The revive is nice, but the HP restoration is too low. Selecting "Power up Medic Power" will give the ability
-power that is slightly less than what GiSar would do.
+Medic Power is commonly overlooked late in game. The revive is nice, but the HP restoration is too low. Selecting "Power up Medic Power" will give the ability power that is slightly less than what GiSar would do.
 
 Wearing the Rykros Ring:
-The Rykros Ring was always one of those items like "Okay, what's the point?". Everyone else can wear their rings but the 5th character always couldn't use the last
-one. Selecting "Make Rykros Ring Wearable" will allow Hahn, Gryz, Demi, Raja, and Kyra to equip the Rykros Ring. The Rykros Ring also carries with it the following
-stats: MTL +3, AGI +3, DEF +20, MDEF +10.
+The Rykros Ring was always one of those items like "Okay, what's the point?". Everyone else can wear their rings but the 5th character always couldn't use the last one. Selecting "Make Rykros Ring Wearable" will allow Hahn, Gryz, Demi, Raja, and Kyra to equip the Rykros Ring. The Rykros Ring also carries with it the following stats: MTL +3, AGI +3, DEF +20, MDEF +10.
 
 Equipment Randomization/Buffs:
-There are a few options you can select for items that are pretty straight forward. "Laser Barrier casts Barrier" and "Cyber-Suit casts Vision" are exactly as they
-sound. Using them as an item in battle will give a flat buff with a strength similar to that of the Swift Helm, Power Shield, and Mahlay Dagger. Selecting
-"Buff Items Multi-Target" will take the Swift Helm, Mahlay Shield, Laser Barrier, and Cyber-Suit (if selected) to target all allies in battle. There is a graphical
-bug with this that will not show the animation over all allies when used, but it does work. Also, this does not affect the Power Shield since its technique
-equivilant is also single-target.
+There are a few options you can select for items that are pretty straight forward. "Laser Barrier casts Barrier" and "Cyber-Suit casts Vision" are exactly as they sound. Using them as an item in battle will give a flat buff with a strength similar to that of the Swift Helm, Power Shield, and Mahlay Dagger. Selecting
+"Buff Items Multi-Target" will take the Swift Helm, Mahlay Shield, Laser Barrier, and Cyber-Suit (if selected) to target all allies in battle. There is a graphical bug with this that will not show the animation over all allies when used, but it does work. Also, this does not affect the Power Shield since its technique equivilant is also single-target.
 
-"Randomize Equipment Prices" also does exactly what it sounds like. Each piece of equipment has a random price attached to it. It is possible for stronger items
-to be cheaper than weaker pieces. Consumable items are still priced as normal.
+"Randomize Equipment Prices" also does exactly what it sounds like. Each piece of equipment has a random price attached to it. It is possible for stronger items to be cheaper than weaker pieces. Consumable items are still priced as normal.
 
-"Randomize Weapon Set Elements" is a bit trickier to explain. Each weapon has their attack element randomized, but it is worth noting that all weapons are divided into
-certain "sets" that all have the same element. For instance, Titanium Weapons will all have the same element, as will Ceramic weapons. The sets and the weapons are as
-follows:
+"Randomize Weapon Set Elements" is a bit trickier to explain. Each weapon has their attack element randomized, but it is worth noting that all weapons are divided into certain "sets" that all have the same element. For instance, Titanium Weapons will all have the same element, as will Ceramic weapons. The sets and the weapons are as follows:
 
 -Set 1: Alis' Sword, Boomerang, Dagger, Wood Cane
 -Set 2: Hunting Knife, Steel Sword, Slasher, Claw, Impacter
@@ -182,34 +165,26 @@ follows:
 -Set 10: Elsydeon, Silver Tusk, Psycho Wand
 
 Enemy Randomization and Customization:
-There are different ways to randomize an enemy in this randomizer. Selecting "Randomize Element Strengths" will randomize what element each enemy is weak to or strong
-against. Due to the possibility of complete damage immunity, I have decided that no enemy will have complete immunity to damage, so the strongest they could be against any
-element would be to reduce the damage by 50%. Due to this, however, three enemies had to have their HP values changed. Haunt goes from 3 HP to 100 HP, Dimensworm goes
-from 4 HP to 200 HP, and Outerbeast goes from 6 HP to 300 HP. "Randomize Status Strengths" randomizes each enemy's resistances to debuffs and status effects. This
-includes bosses as well, making your status techniques and skills much more useful. "Randomized Insta-death Strengths" randomizes each enemy's resistances to instant
-death abilities. This also holds true for bosses, meaning that they possibly can be killed in one shot. With this option, both Spark and Hijammer are no longer exclusive
-to mechanical enemies and can work on enemies regardless of type.
+There are different ways to randomize an enemy in this randomizer. Selecting "Randomize Element Strengths" will randomize what element each enemy is weak to or strong against. Due to the possibility of complete damage immunity, I have decided that no enemy will have complete immunity to damage, so the strongest they could be against any element would be to reduce the damage by 50%. Due to this, however, three enemies had to have their HP values changed. Haunt goes from 3 HP to 100 HP, Dimensworm goes from 4 HP to 200 HP, and Outerbeast goes from 6 HP to 300 HP. "Randomize Status Strengths" randomizes each enemy's resistances to debuffs and status effects. This includes bosses as well, making your status techniques and skills much more useful. "Randomized Insta-death Strengths" randomizes each enemy's resistances to instant death abilities. This also holds true for bosses, meaning that they possibly can be killed in one shot. With this option, both Spark and Hijammer are no longer exclusive to mechanical enemies and can work on enemies regardless of type.
 
-There are also three slider bars that will change an Enemy's HP and how much Meseta and Experience they drop. You can set each of them so that all enemies have
-50%, 150%, 100%, or 200% of their original values. If on the slider, you choose ???%, it will randomizes the value of each individual enemy between 50%, 100%, 150%, and 
-200%. For instance, one enemy could have twice as much HP and then the next could have half as much. 
+There are also three slider bars that will change an Enemy's HP and how much Meseta and Experience they drop. You can set each of them so that all enemies have 50%, 150%, 100%, or 200% of their original values. If on the slider, you choose ???%, it will randomizes the value of each individual enemy between 50%, 100%, 150%, and 200%. For instance, one enemy could have twice as much HP and then the next could have half as much. 
 
 The only enemy immune to these changes is Zio 1 (the unbeatable one in Zio's Fort). This is because actually beating him crashes the game.
 
 4. Known Issues
 
 Item Buffs Multi-Target:
-As noted above, there is a small, non-breaking graphical bug with this option selected where the animation will only appear over one character. All characters will show
-up on the screen, noting that they are being targeted. They are being buffed properly, but it's just something that can't be fixed.
+As noted above, there is a small, non-breaking graphical bug with this option selected where the animation will only appear over one character. All characters will show up on the screen, noting that they are being targeted. They are being buffed properly, but it's just something that can't be fixed.
 
 Text Skipping in the Air Castle:
-As noted above, entering the room with the Eclipse Torch chest will automatically start the fight with the Specter and then continue onto Lashiec. Normally you have to open the chest
-with the fake Eclipse Torch first in order to start the fights. 
+As noted above, entering the room with the Eclipse Torch chest MAY automatically start the fight with the Specter and then continue onto Lashiec. Normally you have to open the chest with the fake Eclipse Torch first in order to start the fights. This doesn't always happen, but be aware that the possibility is there.
+
+Character Stat Randomization:
+There is a slight possibility of stats being randommized incorrectly and giving huge bonuses in the hundreds. This should NOT happen but without further testing, there is a small possibility.
 
 5. Thanks
 
-Thanks and shoutouts to the Phantasy Star IV speedrunning community for inspiring me to work on this randomizer and those who have offered to test the program out. These include but
-are not limited to: Jencey86, KillerSPER, Zexerousheroes, kiaten619, TylertheDriver, Jiseed, and Bichphuongballs.
+Thanks and shoutouts to the Phantasy Star IV speedrunning community for inspiring me to work on this randomizer and those who have offered to test the program out. These include but are not limited to: Jencey86, KillerSPER, Zexerousheroes, kiaten619, TylertheDriver, Jiseed, and Bichphuongballs.
 
 Big thanks to Lory_90 for contributing all of the information needed to allow for Text Skipping.
 
