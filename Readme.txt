@@ -1,7 +1,7 @@
 Phantasy Star IV Randomizer v1.1
 by: MrStarbird
 contributions by: Lory_90
-Date: Aug 20, 2017
+Date: Oct 25, 2017
 
 Contents:
 1. Version History
