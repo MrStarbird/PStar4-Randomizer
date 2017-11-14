@@ -1,7 +1,7 @@
-Phantasy Star IV Randomizer v1.2
+Phantasy Star IV Randomizer v1.2.1
 by: MrStarbird
 contributions by: Lory_90
-Date: Nov. 10, 2017
+Date: Nov. 14, 2017
 
 Contents:
 1. Version History
@@ -11,6 +11,9 @@ Contents:
 5. Thanks
 
 1. Version History
+
+v1.2.1 - Nov. 14, 2017
+-Fixed a bug where Open Armor option wasn't working on Phantasm Robe, Algo Ring, Mahlay Ring, and would prevent Reflect Robe from being equipped.
 
 v1.2 - Nov. 10, 2017
 -Cleaned up the UI, removed and consolidated a few options into one. Enemy HP/Meseta/XP sliders have been removed for simpler design.
