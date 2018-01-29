@@ -1,7 +1,7 @@
-Phantasy Star IV Randomizer v1.2.1
+Phantasy Star IV Randomizer v1.3.0
 by: MrStarbird
 contributions by: Lory_90
-Date: Nov. 14, 2017
+Date: Jan. 29, 2018
 
 Contents:
 1. Version History
@@ -11,6 +11,19 @@ Contents:
 5. Thanks
 
 1. Version History
+
+v1.3.0 - Jan. 29, 2018
+-Added Batch Randomization.
+-Added an option to allow Saving at any location, including inside dungeons.
+-Added Items to the price randomization.
+-Added Preset options.
+-Fixed issue where program was forced to close after ROM generation.
+-Fixed equipment price randomization to scale off original price.
+-Fixed bug where Hahn's Level capped at 18.
+-Fixed bug where Open Armor let some people equip weapons not intended.
+-Cleaned up UI, separated options again for the time being.
+-Rewrote entire program to allow for easier debugging on developer's end.
+-Temporarily removed the Spoiler option due to having rewrote the program.
 
 v1.2.1 - Nov. 14, 2017
 -Fixed a bug where Open Armor option wasn't working on Phantasm Robe, Algo Ring, Mahlay Ring, and would prevent Reflect Robe from being equipped.
@@ -101,8 +114,11 @@ By mousing over each option, you can see a brief tool-tip about what the option 
 Text Skipping:
 By choosing "Text Skpping Enabled", text will automatically advance until you have control, either by choosing a Yes/No option or until you can move again. NOTE: There is an issue that is non-game breaking but annoying. In the Air Castle, the room with the Eclipse Torch chest and Lashiec will automatically trigger its event upon entering the room instead of opening the chest. Unfortunately, until I get in touch with Lory_90 again, I cannot fix this as Text Skipping was mostly his work. The way around it is to just make sure you do your preparations before entering the room.
 
+Save Anywhere:
+By choosing the "Save Anywhere" option, you remove the restriction of where you can save. This provides a safer method of gameplay as you can save at any point in any dungeon now as well.
+
 Chest Options:
-Chest contents can either remain as "Default" or can be either "Randomized" or "Shuffled. By choosing "Default Chest Contents", the chests will have the same items that they would in the original version of the game. By choosing "Randomize Chests", each Item Chest will have a random, non-key item inserted into them and Meseta chests will have a random value inserted into it between 100 and 10000 Meseta. By choosing "Shuffle Chests", the Item Chests will have a random item from a pool of the original chest contents and Meseta chests will have a random value from a pool of all Meseta chests in the game. Key items (Alshline, Psycho Wand, Eclipse Torch, Aero Prism, and the 5 Rings) as well as Wren and Demi's skills are unchanged and remain in their same spot. Elsydeon and Silver Tusks cannot be placed into a chest and must be gotten by normal means.
+Chest contents can either remain as "Default" or can be either "Randomized" or "Shuffled. By choosing "Default Chest Contents", the chests will have the same items that they would in the original version of the game. By choosing "Randomize Chests", each chest will have a random, non-key item inserted into it. By choosing "Shuffle Chests", the game takes the original pool of chests and shuffles them around (key items are still in their original chests due to how flags work in the game).
 
 Shop Options:
 Selecting the "Randomize Shop Inventories" option will create all shops to have random items for sale. All shops will still sell only items of their categories. You can also choose to randomized equipment prices.
@@ -171,6 +187,8 @@ This will allow the Laser Barrier to cast Barrier, the Cyber Suit to cast Vision
 -Set 7: Laconia Sword/Slasher/Dagger/Rod/Claw/Axe, Pulse Vulcan
 -Set 8: Guardian Sword/Rod/Claw, Photon Eraser
 -Set 9: Genocyde Claw, Sonic Buster, Shadow Blade, Moon Slasher, Mahlay Dagger, Defeat Axe
+
+As of right now, the following "set" is staying with the Anti-Evil/Tsu element.
 -Set 10: Elsydeon, Silver Tusk, Psycho Wand
 
 Enemy Randomization and Customization:
@@ -179,9 +197,6 @@ There are different ways to randomize an enemy in this randomizer. Selecting "Ra
 There are also three slider bars that will change an Enemy's HP and how much Meseta and Experience they drop. You can set each of them so that all enemies have 50%, 150%, 100%, or 200% of their original values. If on the slider, you choose ???%, it will randomizes the value of each individual enemy between 50%, 100%, 150%, and 200%. For instance, one enemy could have twice as much HP and then the next could have half as much. 
 
 The only enemy immune to these changes is Zio 1 (the unbeatable one in Zio's Fort). This is because actually beating him crashes the game.
-
-Spoiler:
-Enabling this will create a text file in the same location that will reveal the contents of each chest in the game as well as what each character learns for Techniques/Skills (if randomized).
 
 4. Known Issues
 
@@ -195,6 +210,6 @@ There is a slight possibility of stats being randommized incorrectly and giving 
 
 Thanks and shoutouts to the Phantasy Star IV speedrunning community for inspiring me to work on this randomizer and those who have offered to test the program out. These include but are not limited to: Jencey86, KillerSPER, Zexerousheroes, kaiten619, TylertheDriver, Jiseed, and Bichphuongballs.
 
-Big thanks to Lory_90 for contributing all of the information needed to allow for Text Skipping.
+Big thanks to Lory_90 for contributing all of the information needed to allow for Text Skipping, Save Anywhere, and Chest Randomization/Shuffling.
 
 Huge thanks to Serria for putting up with me working on this Randomizer for months now.
