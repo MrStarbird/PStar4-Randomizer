@@ -1,7 +1,7 @@
-Phantasy Star IV Randomizer v1.3.0
+Phantasy Star IV Randomizer v1.3.1
 by: MrStarbird
 contributions by: Lory_90
-Date: Jan. 29, 2018
+Date: Mar. 20, 2018
 
 Contents:
 1. Version History
@@ -12,7 +12,12 @@ Contents:
 
 1. Version History
 
-v1.3.0 - Jan. 29, 2018
+v1.3.1 - Mar. 20, 2018
+-Fixed bug where Chest Randomization would crash the Program.
+-Fixed bug where Chest Randomization would sometimes give only Meseta.
+-Fixed bug where Power-Up Rods option wasn't setting its flag correctly.
+
+v1.3.0 - Jan. 16, 2018
 -Added Batch Randomization.
 -Added an option to allow Saving at any location, including inside dungeons.
 -Added Items to the price randomization.
